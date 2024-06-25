@@ -1,0 +1,31 @@
+.main {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #010082;
+}
+.logo img {
+  font-size: 1rem;
+}
+
+.navbar ul {
+  display: flex;
+  color: white;
+  list-style: none;
+}
+.navbar ul li {
+  padding: 20px;
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+.navbar ul li a:hover {
+  color: #fdcf91;
+}
