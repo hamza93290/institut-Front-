@@ -1,7 +1,37 @@
-.presentation {
-  background: url(../../../assets/img/img1.jpg) center center/cover;
-  min-height: 80vh;
-}
 * {
   margin: 0;
+}
+
+.vp {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../../../assets/img/img1.jpg) center center/cover;
+  min-height: 90vh;
+  filter: brightness(0.6);
+  position: relative;
+}
+
+.vp-content {
+  max-width: 800px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 500px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.vp-content h1 {
+  font-size: 3.2rem;
+  margin-top: 2rem;
+  line-height: 50px;
+}
+.vp-content p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  // letter-spacing: 1px;
+  line-height: 2rem;
 }
