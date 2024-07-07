@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { Routes, RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,6 +11,8 @@ import { ModalsPresentationComponent } from './component/modals/modals-presentat
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatButtonModule } from '@angular/material/button';
+import { FooterComponent } from './component/footer/footer.component';
+import { ProgrammeComponent } from './component/programme/programme.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +20,8 @@ import { MatButtonModule } from '@angular/material/button';
     NavbarComponent,
     PresentationComponent,
     ModalsPresentationComponent,
+    FooterComponent,
+    ProgrammeComponent,
   ],
   imports: [
     BrowserModule,
@@ -24,6 +29,8 @@ import { MatButtonModule } from '@angular/material/button';
     MatButtonModule,
     MatDividerModule,
     MatIconModule,
+    RouterModule,
+
     BrowserAnimationsModule,
   ],
   providers: [],
